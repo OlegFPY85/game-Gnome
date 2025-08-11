@@ -16,8 +16,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - name: Deploy
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/OlegFPY85/game-Gnome.git
-          npm run deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./dist
