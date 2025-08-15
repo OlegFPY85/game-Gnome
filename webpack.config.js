@@ -8,7 +8,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: 'assets/[name][ext]',
-    publicPath: './'
+    publicPath: '/'
   },
   resolve: {
     fallback: {
