@@ -32,4 +32,5 @@ jobs:
           publish_dir: ./dist
           enable_jekyll: false
           keep_files: true
-          destination_dir: .  # Важно! Публикуем прямо в корень
+          destination_dir: .
+
