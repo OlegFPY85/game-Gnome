@@ -1,0 +1,1 @@
+mkdir -p __mocks__ && echo "module.exports = 'test-file-stub';" > __mocks__/fileMock.js

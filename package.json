@@ -1,0 +1,37 @@
+{
+  "name": "project--gnome",
+  "version": "1.0.0",
+  "description": "[![CI](https://github.com/OlegFPY85/game-Gnome/actions/workflows/deploy.yml/badge.svg)](https://github.com/OlegFPY85/game-Gnome/actions) [![GitHub Pages](https://img.shields.io/badge/Play%20Online-GitHub%20Pages-blue)](https://OlegFPY85.github.io/game-Gnome/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@testing-library/jest-dom": "^6.6.4",
+    "babel-jest": "^30.0.5",
+    "babel-loader": "^10.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "path-browserify": "^1.0.1"
+  }
+}
